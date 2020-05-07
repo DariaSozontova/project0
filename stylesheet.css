@@ -1,0 +1,91 @@
+body {
+  background-image: url("mar.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media screen and (min-width: 600px) {
+  p, td {
+    font-size: 22px; } }
+@media screen and (max-width: 600px) {
+  p, td {
+    font-size: 18px; } }
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  padding: 20px;
+  background-image: url("mauve.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+h2 {
+  color: green;
+  font-size: 35px;
+  margin-top: 30px; }
+
+h5 {
+  font-weight: bold; }
+
+Th, td {
+  color: black;
+  border: 2px solid black;
+  padding: 10px; }
+
+th {
+  background-color: lightgrey; }
+
+table {
+  margin: 20px;
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: baskerville;
+  font-size: 20px; }
+
+.paragraph, p {
+  margin: 35px;
+  font-family: baskerville; }
+
+p::selection {
+  color: green;
+  background-color: lightgrey; }
+
+button {
+  width: auto;
+  height: 40px;
+  background-color: grey; }
+  button a {
+    color: black;
+    font-size: 18px;
+    font-family: baskerville; }
+
+ol, ul, li {
+  font-size: 30px;
+  font-family: baskerville;
+  font-style: italic; }
+
+li a {
+  color: green; }
+
+a:hover {
+  color: purple;
+  background-color: white; }
+
+@media print {
+  .screen-only {
+    display: none; } }
+.psy, .beh, .dev {
+  text-align: left;
+  font-size: 18px;
+  font-family: baskerville; }
+
+.psy {
+  background-color: pink; }
+
+.beh {
+  background-color: green; }
+
+.dev {
+  background-color: yellow; }
+
+/*# sourceMappingURL=stylesheet.css.map */
